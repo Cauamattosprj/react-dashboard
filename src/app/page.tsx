@@ -100,7 +100,9 @@ export default function Home() {
                     </Card>
                 </section>
 
-                <section className="grid grid-cols-1 sm:grid-cols-2 mt-4 gap-4">
+                {/* charts   */}
+                <section className="grid grid-cols-1 sm:grid-cols-2yy121111 mt-4 gap-4">
+                    <ChartOverview />
                     <ChartOverview />
                 </section>
             </main>
