@@ -103,6 +103,7 @@ export default function Home() {
                 {/* charts   */}
                 <section className="grid grid-cols-1 sm:grid-cols-2yy121111 mt-4 gap-4">
                     <ChartOverview />
+                    {/* #TODO Adicionar o PieChart */}
                     <ChartOverview />
                 </section>
             </main>
